@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "title": "World War II Begins",
+    "description": "Germany invades Poland, marking the beginning of World War II in Europe.",
+    "year": 1939,
+    "month": 9,
+    "day": 1,
+    "location": "Poland",
+    "coordinates": {
+      "lat": 52.2297,
+      "lng": 21.0122
+    },
+    "category": "War"
+  },
+  {
+    "id": 2,
+    "title": "Moon Landing",
+    "description": "Apollo 11 astronauts Neil Armstrong and Buzz Aldrin become the first humans to walk on the Moon.",
+    "year": 1969,
+    "month": 7,
+    "day": 20,
+    "location": "Moon",
+    "coordinates": {
+      "lat": 0.6734,
+      "lng": 23.4731
+    },
+    "category": "Space Exploration"
+  },
+  {
+    "id": 3,
+    "title": "Fall of the Berlin Wall",
+    "description": "The Berlin Wall falls, symbolizing the end of the Cold War and division of Germany.",
+    "year": 1989,
+    "month": 11,
+    "day": 9,
+    "location": "Berlin, Germany",
+    "coordinates": {
+      "lat": 52.5200,
+      "lng": 13.4050
+    },
+    "category": "Politics"
+  },
+  {
+    "id": 4,
+    "title": "Declaration of Independence",
+    "description": "The United States Declaration of Independence is adopted by the Continental Congress.",
+    "year": 1776,
+    "month": 7,
+    "day": 4,
+    "location": "Philadelphia, USA",
+    "coordinates": {
+      "lat": 39.9526,
+      "lng": -75.1652
+    },
+    "category": "Politics"
+  },
+  {
+    "id": 5,
+    "title": "French Revolution Begins",
+    "description": "The Storming of the Bastille marks the beginning of the French Revolution.",
+    "year": 1789,
+    "month": 7,
+    "day": 14,
+    "location": "Paris, France",
+    "coordinates": {
+      "lat": 48.8566,
+      "lng": 2.3522
+    },
+    "category": "Revolution"
+  },
+  {
+    "id": 6,
+    "title": "First Powered Flight",
+    "description": "The Wright Brothers achieve the first powered, sustained, and controlled airplane flight.",
+    "year": 1903,
+    "month": 12,
+    "day": 17,
+    "location": "Kitty Hawk, USA",
+    "coordinates": {
+      "lat": 36.0626,
+      "lng": -75.6774
+    },
+    "category": "Technology"
+  },
+  {
+    "id": 7,
+    "title": "Discovery of Penicillin",
+    "description": "Alexander Fleming discovers penicillin, revolutionizing medicine and antibiotics.",
+    "year": 1928,
+    "month": 9,
+    "day": 3,
+    "location": "London, UK",
+    "coordinates": {
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    "category": "Science"
+  },
+  {
+    "id": 8,
+    "title": "Indian Independence",
+    "description": "India gains independence from British colonial rule.",
+    "year": 1947,
+    "month": 8,
+    "day": 15,
+    "location": "New Delhi, India",
+    "coordinates": {
+      "lat": 28.6139,
+      "lng": 77.2090
+    },
+    "category": "Politics"
+  },
+  {
+    "id": 9,
+    "title": "First Internet Message",
+    "description": "The first message is sent over ARPANET, the precursor to the modern Internet.",
+    "year": 1969,
+    "month": 10,
+    "day": 29,
+    "location": "Los Angeles, USA",
+    "coordinates": {
+      "lat": 34.0522,
+      "lng": -118.2437
+    },
+    "category": "Technology"
+  },
+  {
+    "id": 10,
+    "title": "Nelson Mandela Released",
+    "description": "Nelson Mandela is released from prison after 27 years, marking a turning point in South African history.",
+    "year": 1990,
+    "month": 2,
+    "day": 11,
+    "location": "Cape Town, South Africa",
+    "coordinates": {
+      "lat": -33.9249,
+      "lng": 18.4241
+    },
+    "category": "Human Rights"
+  },
+  {
+    "id": 11,
+    "title": "First Human in Space",
+    "description": "Soviet cosmonaut Yuri Gagarin becomes the first human to journey into outer space.",
+    "year": 1961,
+    "month": 4,
+    "day": 12,
+    "location": "Baikonur, Kazakhstan",
+    "coordinates": {
+      "lat": 45.9650,
+      "lng": 63.3050
+    },
+    "category": "Space Exploration"
+  },
+  {
+    "id": 12,
+    "title": "Chernobyl Disaster",
+    "description": "The Chernobyl nuclear power plant explodes, causing the worst nuclear disaster in history.",
+    "year": 1986,
+    "month": 4,
+    "day": 26,
+    "location": "Chernobyl, Ukraine",
+    "coordinates": {
+      "lat": 51.3890,
+      "lng": 30.0990
+    },
+    "category": "Disaster"
+  },
+  {
+    "id": 13,
+    "title": "World Wide Web Launched",
+    "description": "Tim Berners-Lee makes the World Wide Web publicly available, transforming global communication.",
+    "year": 1991,
+    "month": 8,
+    "day": 6,
+    "location": "Geneva, Switzerland",
+    "coordinates": {
+      "lat": 46.2044,
+      "lng": 6.1432
+    },
+    "category": "Technology"
+  },
+  {
+    "id": 14,
+    "title": "Hiroshima Atomic Bombing",
+    "description": "The United States drops the first atomic bomb on Hiroshima, Japan.",
+    "year": 1945,
+    "month": 8,
+    "day": 6,
+    "location": "Hiroshima, Japan",
+    "coordinates": {
+      "lat": 34.3853,
+      "lng": 132.4553
+    },
+    "category": "War"
+  },
+  {
+    "id": 15,
+    "title": "Christopher Columbus Reaches Americas",
+    "description": "Christopher Columbus and his crew reach the Americas, beginning European exploration of the New World.",
+    "year": 1492,
+    "month": 10,
+    "day": 12,
+    "location": "Bahamas",
+    "coordinates": {
+      "lat": 25.0343,
+      "lng": -77.3963
+    },
+    "category": "Exploration"
+  }
+]
