@@ -31,17 +31,15 @@
 
 Base URL: `http://localhost:5000`
 
-### Health Check
-```
-GET /
-```
-Returns API status and version information.
 
-### Get All Events
-```
-GET /api/events
-```
-Retrieve all historical events with optional filtering.
+| Endpoint                      | Method | Description                                   |
+|-------------------------------|--------|-----------------------------------------------|
+| `/`                           | GET    | Returns API status and version information.   |
+| `/api/events`                 | GET    | Retrieve all historical events with optional filtering. |
+| `/api/events/<event_id>`      | GET    | Retrieve a specific event by its ID.          |
+| `/api/events/categories`      | GET    | Returns a list of all unique event categories.|
+| `/api/events/locations`       | GET    | Returns a list of all unique event locations. |
+
 
 **Query Parameters:**
 - `start_year` - Filter events from this year onwards
@@ -49,32 +47,14 @@ Retrieve all historical events with optional filtering.
 - `location` - Filter by location (case-insensitive)
 - `category` - Filter by category (case-insensitive)
 
-**Example:**
-```
-GET /api/events?start_year=1900&end_year=2000&category=technology
-```
+| Endpoint Example                              | Description                                 |
+|-----------------------------------------------|---------------------------------------------|
+| `GET /api/events?start_year=1900&end_year=2000&category=technology` | Retrieve all events from 1900 to 2000, filtered by category `technology`. |
+| `GET /api/events/<event_id>`                  | Retrieve a specific event by its ID.        |
+| `GET /api/events/categories`                  | Returns a list of all unique event categories. |
+| `GET /api/events/locations`                   | Returns a list of all unique event locations. |
 
-### Get Event by ID
-```
-GET /api/events/<event_id>
-```
-Retrieve a specific event by its ID.
-
-### Get All Categories
-```
-GET /api/events/categories
-```
-Returns a list of all unique event categories.
-
-### Get All Locations
-```
-GET /api/events/locations
-```
-Returns a list of all unique event locations.
-
-## Getting Started
-
-### Backend Setup
+## Backend Setup
 ```bash
 cd backend
 python3 -m venv venv
@@ -82,6 +62,4 @@ source venv/bin/activate
 pip install -r requirements.txt
 python app.py
 ```
-
-The API will be available at `http://localhost:5000`
 
