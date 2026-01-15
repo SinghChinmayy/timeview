@@ -1,5 +1,52 @@
 # timeview
 
+> **⚠️ Project Under Development:**  
+> This project is currently in active development. Features, APIs, and documentation are subject to change. Contributions, suggestions, and feedback are welcome!
+
+---
+
+## 📝 Implementation Checklist (Priority Order)
+
+### 1. Core Backend Functionality
+- [x] Implement `/api/events` endpoint (with filtering, pagination, and validation).
+- [x] Implement `/api/events/<event_id>` endpoint (fetch event by ID with error handling).
+- [ ] Implement `/api/events/categories` and `/api/events/locations` endpoints.
+- [x] Connect backend to static JSON data (initial MVP).
+
+### 2. Core Frontend Functionality
+- [ ] Set up frontend app structure (React or Vue.js).
+- [ ] Timeline component with interactive controls (zoom, scroll, select).
+- [ ] Map visualization (integrate Leaflet.js).
+- [ ] Display events on map and timeline, enable click-to-view details.
+- [ ] Implement event filters (time period, category, location).
+
+### 3. Data Improvements
+- [ ] Expand and refine sample historical event data.
+- [ ] Add more locations and categories for filtering.
+- [ ] Add data validation scripts/utilities.
+
+### 4. UI/UX Polish & Extras
+- [ ] Add Material-UI for styling and layout.
+- [ ] Responsive layout for mobile/web.
+- [ ] Tooltips, modals, or popups for event details.
+- [ ] Error/loading states and user feedback.
+
+### 5. Advanced/Stretch Goals
+- [ ] Integrate with external APIs (Wikipedia, Wikidata, etc.) for dynamic event loading.
+- [ ] Implement user curation/admin interface for event data.
+- [ ] Migrate data to PostgreSQL, update API accordingly.
+- [ ] User accounts, favoriting/bookmarking events.
+
+### 6. Testing, Docs & Deployment
+- [ ] Write unit/integration tests for backend and frontend.
+- [ ] Improve API and contributor documentation.
+- [ ] Prepare production deployment configs.
+
+---
+
+
+
+---
 ## Project Overview & Architecture
 
 **Core Features:**
